@@ -1,5 +1,14 @@
 package fr.uga.l3miage.tp1.exo1.models;
-    @Entity
+
+
+import fr.uga.l3miage.tp1.exo1.enums.PowerType;
+import fr.uga.l3miage.tp1.exo1.enums.WeightType;
+
+import javax.persistence.*;
+import java.time.LocalDate;
+
+
+@Entity
     @Table(name="car_porshe")
     public class CarEntity{
 
@@ -28,6 +37,6 @@ package fr.uga.l3miage.tp1.exo1.models;
 
         @Column(name= "weight_unity")
         @Enumerated(EnumType.STRING)
-        private WeightUnity weightUnity;
+        private WeightType weightUnity;
     }
 
