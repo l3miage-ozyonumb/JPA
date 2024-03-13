@@ -18,6 +18,4 @@ public class User {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "session_id", referencedColumnName = "idSession")
     private Session session;
-
-    // Getters and setters
 }
