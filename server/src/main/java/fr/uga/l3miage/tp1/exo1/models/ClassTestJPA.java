@@ -1,5 +1,10 @@
 package fr.uga.l3miage.tp1.exo1.models;
 
+import fr.uga.l3miage.tp1.exo1.enums.PowerType;
+
+import javax.persistence.Id;
+import java.time.LocalDate;
+
 public class ClassTestJPA {
     @Id
     private String myIdTest;

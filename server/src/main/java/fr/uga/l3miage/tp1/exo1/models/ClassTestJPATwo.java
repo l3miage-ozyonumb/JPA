@@ -1,5 +1,8 @@
 package fr.uga.l3miage.tp1.exo1.models;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+
 public class ClassTestJPATwo {
     @Id
     private String myIdTest;
